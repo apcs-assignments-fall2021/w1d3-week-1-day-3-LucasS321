@@ -72,8 +72,8 @@ public class MyMain {
     // This method carries out the quadratic formula and *prints* out the answers
     public static void quadForm(int a, int b, int c) {
         double o = Math.sqrt(b^2-4*a*c);
-        double first = (0-b + o)/(2*a);
-        double second = (0-b - o)/(2*a);
+        double first = (-b + o)/(2*a);
+        double second = (-b - o)/(2*a);//dfas
         System.out.println("x="+first+" x="+second);
     }
 
